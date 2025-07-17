@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5e314a7de7f76914491d97b60984e9d1
+guid: 8c595004ff3614f148994b29c4226a0f
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -112,10 +112,10 @@ TextureImporter:
       name: Block_Left_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 42
-        width: 572
-        height: 542
+        x: 36
+        y: 17
+        width: 565
+        height: 567
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9070ac43ec0a05c4d9bdd9d302e4d958
+    spriteID: 944d4f49ebe3b409ea28bf12ecfb76f4
     internalID: 0
     vertices: []
     indices: 
