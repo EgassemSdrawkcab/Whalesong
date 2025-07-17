@@ -322,7 +322,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1821394295, guid: eaf341075e5155b4287fc873f1273cda, type: 3}
+  m_Sprite: {fileID: -7702467186651913581, guid: 642da99b09d9bc54ca15e32bf36b6ba6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -343,7 +343,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1594701180}
@@ -360,8 +360,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a1ca70496f63e43a855660ca4ec5e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultImage: {fileID: -1821394295, guid: eaf341075e5155b4287fc873f1273cda, type: 3}
-  pressedImage: {fileID: 386244795, guid: eaf341075e5155b4287fc873f1273cda, type: 3}
+  defaultImage: {fileID: -7702467186651913581, guid: 642da99b09d9bc54ca15e32bf36b6ba6, type: 3}
+  pressedImage: {fileID: -2414066459568280584, guid: 642da99b09d9bc54ca15e32bf36b6ba6, type: 3}
   keyToPress: 276
 --- !u!61 &29083509
 BoxCollider2D:
@@ -397,17 +397,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.08023286, y: -0.4699347}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 4, y: 2.93}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.461469, y: 4.048844}
   m_EdgeRadius: 0
 --- !u!50 &29083510
 Rigidbody2D:
