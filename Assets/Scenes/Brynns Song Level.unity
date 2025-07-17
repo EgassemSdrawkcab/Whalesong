@@ -322,12 +322,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7702467186651913581, guid: 5e314a7de7f76914491d97b60984e9d1, type: 3}
+  m_Sprite: {fileID: -7702467186651913581, guid: 8c595004ff3614f148994b29c4226a0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 5.65, y: 5.67}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -360,8 +360,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a1ca70496f63e43a855660ca4ec5e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultImage: {fileID: -7702467186651913581, guid: 5e314a7de7f76914491d97b60984e9d1, type: 3}
-  pressedImage: {fileID: -2414066459568280584, guid: 5e314a7de7f76914491d97b60984e9d1, type: 3}
+  defaultImage: {fileID: -7702467186651913581, guid: 8c595004ff3614f148994b29c4226a0f, type: 3}
+  pressedImage: {fileID: -2414066459568280584, guid: 8c595004ff3614f148994b29c4226a0f, type: 3}
   keyToPress: 276
 --- !u!61 &29083509
 BoxCollider2D:
@@ -402,7 +402,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 4, y: 2.93}
-    newSize: {x: 0.64, y: 0.64}
+    newSize: {x: 5.65, y: 5.67}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -6484,8 +6484,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 379eccd1ca6a17d4a8b7255e648fc3e4, type: 3}
-  m_Resource: {fileID: 8300000, guid: 379eccd1ca6a17d4a8b7255e648fc3e4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9cb6ad170bd434e7abcd8254275c0346, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9cb6ad170bd434e7abcd8254275c0346, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
