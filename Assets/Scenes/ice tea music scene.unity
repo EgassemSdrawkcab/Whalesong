@@ -5671,6 +5671,9 @@ GameObject:
   - component: {fileID: 1802821509}
   - component: {fileID: 1802821514}
   - component: {fileID: 1802821513}
+  - component: {fileID: 1802821517}
+  - component: {fileID: 1802821516}
+  - component: {fileID: 1802821515}
   m_Layer: 0
   m_Name: Anglerfish_Red_Fixed_0
   m_TagString: Untagged
@@ -5690,7 +5693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: werido
+  textToDisplay: Out here? Looking for a child? You can't be serious.
   backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 0}
@@ -5710,7 +5713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: your a weird sperm whale
+  textToDisplay: Why? Why would I help a stupid sperm whale like you?
   backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 0}
@@ -5845,8 +5848,73 @@ MonoBehaviour:
   happenOnlyOnce: 1
   filterByTag: 0
   filterTag: Player
-  frequency: 1
+  frequency: 5
   eventType: 2
+--- !u!114 &1802821515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: "How about a game? If you win I'll lead you the way only for..2
+    mins depending where I think that \u2019 child\u2019 of yours is, but if I win
+    then that proves to me that you don't need help and that you are joking and pranking
+    me"
+  backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 0}
+--- !u!114 &1802821516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: '*Anglerfish was about to leave after being a little freaked out* 
+    Fine..I can help.. On one condition'
+  backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 0}
+--- !u!114 &1802821517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: '*Anglerfish expression shifts to slight concern*  Wait..what? You''re
+    serious? You have to be joking or playing a prank. '
+  backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 0}
 --- !u!1 &1864105779
 GameObject:
   m_ObjectHideFlags: 0
