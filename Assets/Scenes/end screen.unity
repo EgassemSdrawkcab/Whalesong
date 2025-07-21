@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2183177671138758095, guid: 9fdfbd959f4ad1b43a472a2eef7b5898, type: 3}
+  m_Sprite: {fileID: 6396185402253768657, guid: 0807218323cbf23439442594a5ea840d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe2d01f36b24b4a098b250d65a68a92f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: Brynns Song Level
+  levelName: title screen
 --- !u!114 &346294735
 MonoBehaviour:
   m_ObjectHideFlags: 0
