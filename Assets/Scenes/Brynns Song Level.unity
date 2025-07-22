@@ -8336,7 +8336,7 @@ MonoBehaviour:
   textToDisplay: Test 2
   backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1552386865}
   disappearMode: 1
   timeToDisappear: 2
   keyToPress: 13
