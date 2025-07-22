@@ -15,9 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/gmg unity yaaay.unity
     guid: 7380bd980eb5ee247baa2237e4393b6c
   - enabled: 1
+    path: Assets/Scenes/title screen.unity
+    guid: e294f3ceb41fd234383d90a173b0cb8a
+  - enabled: 1
     path: Assets/Scenes/Brynns Song Level.unity
     guid: 75f3e21e87a697d4089b505e51e8c44f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Briannas Super Cool Music Scene.unity
     guid: f120278578f91ed49b449207cdaac013
   - enabled: 1
@@ -26,6 +29,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jev-level-pablo.unity
     guid: 6220a5c3d4ab746a0a1dedff14a050b0
+  - enabled: 1
+    path: Assets/Scenes/Brianna song level.unity
+    guid: 951d49a6909de3c4eab09694af06b5d8
+  - enabled: 1
+    path: Assets/Scenes/end screen.unity
+    guid: d26f5c177caa3a7469a0554c7ee92861
+  - enabled: 1
+    path: Assets/Scenes/Ending Scene.unity
+    guid: aac9d0ac6e9688041adf4425b92cfba9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
