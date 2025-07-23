@@ -792,7 +792,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.12280345, y: 0.105260134}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -802,7 +802,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.263064, y: 4.438497}
   m_EdgeRadius: 0
 --- !u!50 &29083510
 Rigidbody2D:
@@ -11179,7 +11179,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1821394295, guid: eaf341075e5155b4287fc873f1273cda, type: 3}
+  m_Sprite: {fileID: -2258265194430215378, guid: 4acefc12dd4234c4fb3bc7b5bf440baa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11200,7 +11200,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1594701180}
@@ -11217,8 +11217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a1ca70496f63e43a855660ca4ec5e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultImage: {fileID: -1821394295, guid: eaf341075e5155b4287fc873f1273cda, type: 3}
-  pressedImage: {fileID: 386244795, guid: eaf341075e5155b4287fc873f1273cda, type: 3}
+  defaultImage: {fileID: -2258265194430215378, guid: 4acefc12dd4234c4fb3bc7b5bf440baa, type: 3}
+  pressedImage: {fileID: -5128371268488859738, guid: 4acefc12dd4234c4fb3bc7b5bf440baa, type: 3}
   keyToPress: 275
 --- !u!61 &786045164
 BoxCollider2D:
@@ -11254,17 +11254,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0701741, y: 0.14034712}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 4, y: 2.93}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.35075, y: 3.2455485}
   m_EdgeRadius: 0
 --- !u!50 &786045165
 Rigidbody2D:
@@ -13937,7 +13937,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1821394295, guid: eaf341075e5155b4287fc873f1273cda, type: 3}
+  m_Sprite: {fileID: -1281382207994951347, guid: ec694d814f651467db905c957949d72a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13958,7 +13958,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1594701180}
@@ -13975,7 +13975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a1ca70496f63e43a855660ca4ec5e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultImage: {fileID: -1821394295, guid: eaf341075e5155b4287fc873f1273cda, type: 3}
+  defaultImage: {fileID: -1281382207994951347, guid: ec694d814f651467db905c957949d72a, type: 3}
   pressedImage: {fileID: -7201009125014441352, guid: ec694d814f651467db905c957949d72a, type: 3}
   keyToPress: 273
 --- !u!61 &994022338
@@ -14012,17 +14012,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.10241234, y: 0.06438637}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2.94, y: 3.26}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.3350022, y: 5.206354}
   m_EdgeRadius: 0
 --- !u!50 &994022339
 Rigidbody2D:
@@ -17514,7 +17514,7 @@ GameObject:
   - component: {fileID: 1190948854}
   - component: {fileID: 1190948855}
   - component: {fileID: 1190948856}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Down ShieldSpot
   m_TagString: Activator
   m_Icon: {fileID: 0}
@@ -17564,8 +17564,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -1821394295, guid: eaf341075e5155b4287fc873f1273cda, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -5853625309083020929, guid: 6adc324ed4e404c7fab2eae25a1018a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -17586,7 +17586,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1594701180}
@@ -17603,8 +17603,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a1ca70496f63e43a855660ca4ec5e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultImage: {fileID: -1821394295, guid: eaf341075e5155b4287fc873f1273cda, type: 3}
-  pressedImage: {fileID: 386244795, guid: eaf341075e5155b4287fc873f1273cda, type: 3}
+  defaultImage: {fileID: -5853625309083020929, guid: 6adc324ed4e404c7fab2eae25a1018a1, type: 3}
+  pressedImage: {fileID: 8040527341812116867, guid: 6adc324ed4e404c7fab2eae25a1018a1, type: 3}
   keyToPress: 274
 --- !u!61 &1190948855
 BoxCollider2D:
@@ -17640,17 +17640,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.47367048, y: -0.070172906}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 1.28, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 4.26, y: 3.37}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.631503, y: 4.578842}
   m_EdgeRadius: 0
 --- !u!50 &1190948856
 Rigidbody2D:
