@@ -112,10 +112,10 @@ TextureImporter:
       name: Block_Down_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 12
-        width: 557
-        height: 572
+        x: 0
+        y: 0
+        width: 634
+        height: 602
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,12 +134,12 @@ TextureImporter:
       name: Block_Down_1
       rect:
         serializedVersion: 2
-        x: 154
+        x: 150
         y: 413
         width: 342
         height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.6571542, y: 0.45247817}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
