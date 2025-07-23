@@ -8741,6 +8741,7 @@ GameObject:
   - component: {fileID: 1802821517}
   - component: {fileID: 1802821516}
   - component: {fileID: 1802821515}
+  - component: {fileID: 1802821518}
   m_Layer: 0
   m_Name: Anglerfish_Red_Fixed_0
   m_TagString: Untagged
@@ -8760,14 +8761,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: Out here? Looking for a child? You can't be serious.
-  backgroundColor: {r: 0.6603774, g: 0.09048221, b: 0.07164473, a: 1}
+  textToDisplay: I'm looking for my child, please, you have to help me!
+  backgroundColor: {r: 0.16981132, g: 0.463122, b: 0.6792453, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 0}
   disappearMode: 1
   timeToDisappear: 2
   keyToPress: 13
-  followingText: {fileID: 1802821517}
+  followingText: {fileID: 1802821510}
 --- !u!114 &1802821510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8981,6 +8982,26 @@ MonoBehaviour:
   timeToDisappear: 2
   keyToPress: 13
   followingText: {fileID: 1802821516}
+--- !u!114 &1802821518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: Hey, you!
+  backgroundColor: {r: 0.14684944, g: 0.38820046, b: 0.5660378, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 1074829529}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 1802821509}
 --- !u!1 &1864105779
 GameObject:
   m_ObjectHideFlags: 0
