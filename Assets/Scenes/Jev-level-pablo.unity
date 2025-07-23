@@ -15580,7 +15580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beatTempo: 240
-  beatHasStarted: 1
+  beatHasStarted: 0
 --- !u!1 &1087795814
 GameObject:
   m_ObjectHideFlags: 0
