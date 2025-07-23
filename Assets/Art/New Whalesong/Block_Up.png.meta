@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9713efdaa3422e7419c51f28c2ed73d6
+guid: ec694d814f651467db905c957949d72a
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -52,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -109,12 +109,12 @@ TextureImporter:
       name: Block_Up_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 467
-        width: 557
-        height: 117
+        x: 28
+        y: 0
+        width: 573
+        height: 584
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -136,7 +136,7 @@ TextureImporter:
         width: 342
         height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -155,10 +155,10 @@ TextureImporter:
         serializedVersion: 2
         x: 164
         y: 25
-        width: 293
-        height: 389
+        width: 294
+        height: 326
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: b1585aaa1e81649e192c1aabb6d69cf8
     internalID: 0
     vertices: []
     indices: 
