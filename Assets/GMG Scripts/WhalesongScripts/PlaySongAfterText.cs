@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 public class PlaySongAfterText : MonoBehaviour
 {
     [SerializeField] NoteScroller TheArrowsFolder;
+
+    [SerializeField] AudioSource TheMusicSource;
     public int NumberOfStartBalloons;
     public int NumberOfEndBalloons;
 
@@ -18,6 +20,7 @@ public class PlaySongAfterText : MonoBehaviour
     {
         StartCountDown = NumberOfStartBalloons;
         FullCountDown = NumberOfStartBalloons + NumberOfEndBalloons;
+        TheMusicSource.Pause();
     }
 
     // Update is called once per frame
@@ -33,6 +36,7 @@ public class PlaySongAfterText : MonoBehaviour
         if (StartCountDown == 0)
         {
             TheArrowsFolder.beatHasStarted = true;
+            TheMusicSource.UnPause();
         }
 
         if (FullCountDown == 0) {
