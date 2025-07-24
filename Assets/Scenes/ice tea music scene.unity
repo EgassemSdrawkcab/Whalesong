@@ -2733,8 +2733,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TheArrowsFolder: {fileID: 1086098812}
   TheMusicSource: {fileID: 1537385921}
-  NumberOfStartBalloons: 5
-  NumberOfEndBalloons: 2
+  NumberOfStartBalloons: 12
+  NumberOfEndBalloons: 6
   levelName: Jev-level-pablo
 --- !u!4 &510785885
 Transform:
@@ -3833,6 +3833,10 @@ GameObject:
   - component: {fileID: 776384429}
   - component: {fileID: 776384428}
   - component: {fileID: 776384427}
+  - component: {fileID: 776384435}
+  - component: {fileID: 776384434}
+  - component: {fileID: 776384433}
+  - component: {fileID: 776384432}
   m_Layer: 0
   m_Name: Finish line
   m_TagString: Untagged
@@ -3867,14 +3871,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: ending
-  backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
+  textToDisplay: 'i knew I shouldn''t have trusted stupid sperm whales.. '
+  backgroundColor: {r: 0.7735849, g: 0.17926012, b: 0.12771447, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 1802821512}
   disappearMode: 1
   timeToDisappear: 2
   keyToPress: 13
-  followingText: {fileID: 0}
+  followingText: {fileID: 776384435}
 --- !u!114 &776384428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3887,8 +3891,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: this is the finish line
-  backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
+  textToDisplay: 'I can''t believe you.. '
+  backgroundColor: {r: 0.8301887, g: 0.27104965, b: 0.1527234, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 1802821512}
   disappearMode: 1
@@ -4019,6 +4023,86 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &776384432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776384425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: 'food? It''s already too late for that. '
+  backgroundColor: {r: 0.764151, g: 0.082903184, b: 0.12769791, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 0}
+--- !u!114 &776384433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776384425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: ' I can get you some food. '
+  backgroundColor: {r: 0.06345675, g: 0.3636851, b: 0.5849056, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 776384432}
+--- !u!114 &776384434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776384425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: But I'm not lying! Please, I'll do anything;
+  backgroundColor: {r: 0.10399607, g: 0.3537252, b: 0.5377358, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 776384433}
+--- !u!114 &776384435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776384425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: 'stupid sperm whales.. '
+  backgroundColor: {r: 0.7264151, g: 0.1601849, b: 0.10622107, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 776384434}
 --- !u!1 &786045160
 GameObject:
   m_ObjectHideFlags: 0
@@ -6282,7 +6366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: I'm looking for my child, please, you have to help me!
+  textToDisplay: I'm looking for my child
   backgroundColor: {r: 0.16981132, g: 0.463122, b: 0.6792453, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 0}
@@ -8799,6 +8883,17 @@ GameObject:
   - component: {fileID: 1802821516}
   - component: {fileID: 1802821515}
   - component: {fileID: 1802821518}
+  - component: {fileID: 1802821519}
+  - component: {fileID: 1802821520}
+  - component: {fileID: 1802821528}
+  - component: {fileID: 1802821527}
+  - component: {fileID: 1802821526}
+  - component: {fileID: 1802821525}
+  - component: {fileID: 1802821524}
+  - component: {fileID: 1802821523}
+  - component: {fileID: 1802821522}
+  - component: {fileID: 1802821521}
+  - component: {fileID: 1802821529}
   m_Layer: 0
   m_Name: Anglerfish_Red_Fixed_0
   m_TagString: Untagged
@@ -8818,14 +8913,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: I'm looking for my child, please, you have to help me!
+  textToDisplay: I'm looking for my child
   backgroundColor: {r: 0.16981132, g: 0.463122, b: 0.6792453, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 0}
   disappearMode: 1
   timeToDisappear: 2
   keyToPress: 13
-  followingText: {fileID: 1802821517}
+  followingText: {fileID: 1802821519}
 --- !u!114 &1802821510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8838,14 +8933,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: Why? Why would I help a stupid sperm whale like you?
+  textToDisplay: 'Why? Why would I help '
   backgroundColor: {r: 0.735849, g: 0, b: 0.119300656, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 0}
   disappearMode: 1
   timeToDisappear: 2
   keyToPress: 13
-  followingText: {fileID: 1802821509}
+  followingText: {fileID: 1802821520}
 --- !u!212 &1802821511
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8965,7 +9060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 1802821510}
+  - {fileID: 1802821518}
   useCustomActions: 0
   customActions:
     m_PersistentCalls:
@@ -8987,17 +9082,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: "How about a game? If you win I'll lead you the way only for..2
-    mins depending where I think that \u2019 child\u2019 of yours is, but if I win
-    then that proves to me that you don't need help and that you are joking and pranking
-    me"
+  textToDisplay: How about a game?
   backgroundColor: {r: 0.8301887, g: 0.1575366, b: 0.08223567, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 0}
   disappearMode: 1
   timeToDisappear: 2
   keyToPress: 13
-  followingText: {fileID: 0}
+  followingText: {fileID: 1802821522}
 --- !u!114 &1802821516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9030,15 +9122,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: 'Wait..what? You''re serious? You have to be joking or playing a
-    prank. '
+  textToDisplay: ' You''re serious?'
   backgroundColor: {r: 0.7924528, g: 0.10029411, b: 0.09344961, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 0}
   disappearMode: 1
   timeToDisappear: 2
   keyToPress: 13
-  followingText: {fileID: 1802821516}
+  followingText: {fileID: 1802821529}
 --- !u!114 &1802821518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9055,6 +9146,226 @@ MonoBehaviour:
   backgroundColor: {r: 0.14684944, g: 0.38820046, b: 0.5660378, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 1074829529}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 1802821509}
+--- !u!114 &1802821519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: ' please, you have to help me!'
+  backgroundColor: {r: 0.07164473, g: 0.41061226, b: 0.6603774, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 1802821510}
+--- !u!114 &1802821520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: a stupid sperm whale like you?
+  backgroundColor: {r: 0.6226415, g: 0.07860756, b: 0.014684939, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 1802821528}
+--- !u!114 &1802821521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: 'I''ll lead you the way only for..2 mins '
+  backgroundColor: {r: 0.8113208, g: 0.16344737, b: 0.15690637, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 0}
+--- !u!114 &1802821522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: ' If you win '
+  backgroundColor: {r: 0.7735849, g: 0.2306153, b: 0.11311854, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 1802821521}
+--- !u!114 &1802821523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: ...
+  backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 1802821515}
+--- !u!114 &1802821524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: Anything
+  backgroundColor: {r: 0.078987174, g: 0.20823531, b: 0.6698113, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 1802821523}
+--- !u!114 &1802821525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: Fine..I can help.. On one condition
+  backgroundColor: {r: 0.7830189, g: 0.16529824, b: 0.1071111, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 1802821524}
+--- !u!114 &1802821526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: Yes, I'm serious.. Can you help me now?
+  backgroundColor: {r: 0.109024554, g: 0.42647034, b: 0.6603774, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 1802821517}
+--- !u!114 &1802821527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: Out here? You can't be serious.
+  backgroundColor: {r: 0.7924528, g: 0.1646774, b: 0.115877524, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 1802821526}
+--- !u!114 &1802821528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: please..
+  backgroundColor: {r: 0.15690637, g: 0.5336907, b: 0.8113208, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
+  disappearMode: 1
+  timeToDisappear: 2
+  keyToPress: 13
+  followingText: {fileID: 1802821527}
+--- !u!114 &1802821529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802821508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDisplay: ' You have to be joking'
+  backgroundColor: {r: 0.9245283, g: 0.08167263, b: 0.056692798, a: 1}
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  targetObject: {fileID: 0}
   disappearMode: 1
   timeToDisappear: 2
   keyToPress: 13
