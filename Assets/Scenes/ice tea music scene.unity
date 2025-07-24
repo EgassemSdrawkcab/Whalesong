@@ -2733,7 +2733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TheArrowsFolder: {fileID: 1086098812}
   TheMusicSource: {fileID: 1537385921}
-  NumberOfStartBalloons: 5
+  NumberOfStartBalloons: 6
   NumberOfEndBalloons: 2
   levelName: Jev-level-pablo
 --- !u!4 &510785885
@@ -8768,7 +8768,7 @@ MonoBehaviour:
   disappearMode: 1
   timeToDisappear: 2
   keyToPress: 13
-  followingText: {fileID: 1802821510}
+  followingText: {fileID: 1802821517}
 --- !u!114 &1802821510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8917,7 +8917,7 @@ MonoBehaviour:
   filterByTag: 0
   filterTag: Player
   frequency: 5
-  eventType: 2
+  eventType: 0
 --- !u!114 &1802821515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8940,7 +8940,7 @@ MonoBehaviour:
   disappearMode: 1
   timeToDisappear: 2
   keyToPress: 13
-  followingText: {fileID: 0}
+  followingText: {fileID: 1802821518}
 --- !u!114 &1802821516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8994,14 +8994,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: Hey, you!
+  textToDisplay: Okay...
   backgroundColor: {r: 0.14684944, g: 0.38820046, b: 0.5660378, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 1074829529}
   disappearMode: 1
   timeToDisappear: 2
   keyToPress: 13
-  followingText: {fileID: 1802821509}
+  followingText: {fileID: 0}
 --- !u!1 &1864105779
 GameObject:
   m_ObjectHideFlags: 0

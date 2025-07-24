@@ -6015,7 +6015,7 @@ MonoBehaviour:
   TheMusicSource: {fileID: 1033307947}
   NumberOfStartBalloons: 13
   NumberOfEndBalloons: 2
-  levelName: Jev-level-pablo
+  levelName: Test Music Scene Zoe
 --- !u!4 &429260491
 Transform:
   m_ObjectHideFlags: 0
@@ -11718,7 +11718,7 @@ SpriteRenderer:
   m_Size: {x: 4.41, y: 3.94}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &853618700
