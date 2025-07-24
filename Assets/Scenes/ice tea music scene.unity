@@ -535,7 +535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &29083505
@@ -983,7 +983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1001 &113407648
@@ -1218,7 +1218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &158802127
@@ -1396,7 +1396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &268722070
@@ -1574,7 +1574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &288857146
@@ -1752,7 +1752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &297411928
@@ -2108,7 +2108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &312103121
@@ -2286,7 +2286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1001 &360809327
@@ -2521,7 +2521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &404917991
@@ -2699,7 +2699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &510785883
@@ -2926,7 +2926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &677938312
@@ -3104,7 +3104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &738066549
@@ -3282,7 +3282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &744291989
@@ -3460,7 +3460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &767933918
@@ -3638,7 +3638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &769760226
@@ -3816,7 +3816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &776384425
@@ -4372,7 +4372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1001 &804751631
@@ -4721,7 +4721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &922916846
@@ -4899,7 +4899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1001 &943490044
@@ -5134,7 +5134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1001 &963380761
@@ -5369,7 +5369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &994022334
@@ -5725,7 +5725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &1035681233
@@ -5903,7 +5903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &1074829528
@@ -6400,6 +6400,63 @@ MonoBehaviour:
   timeToDisappear: 2
   keyToPress: 13
   followingText: {fileID: 0}
+--- !u!1001 &1169741319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6318852743686369312, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
+      propertyPath: m_Name
+      value: Missed Note Collector
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305463263653473646, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6940098
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305463263653473646, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.7857075
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305463263653473646, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305463263653473646, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305463263653473646, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305463263653473646, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305463263653473646, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305463263653473646, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305463263653473646, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305463263653473646, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b5b9fbf821812194daac1ab7f34f7c66, type: 3}
 --- !u!1001 &1175046045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6521,7 +6578,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1281382207994951347, guid: ec694d814f651467db905c957949d72a, type: 3}
+  m_Sprite: {fileID: -5853625309083020929, guid: 6adc324ed4e404c7fab2eae25a1018a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6559,8 +6616,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a1ca70496f63e43a855660ca4ec5e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultImage: {fileID: -1281382207994951347, guid: ec694d814f651467db905c957949d72a, type: 3}
-  pressedImage: {fileID: -7201009125014441352, guid: ec694d814f651467db905c957949d72a, type: 3}
+  defaultImage: {fileID: -5853625309083020929, guid: 6adc324ed4e404c7fab2eae25a1018a1, type: 3}
+  pressedImage: {fileID: 8040527341812116867, guid: 6adc324ed4e404c7fab2eae25a1018a1, type: 3}
   keyToPress: 274
 --- !u!61 &1190948855
 BoxCollider2D:
@@ -6598,9 +6655,9 @@ BoxCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 1.28, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.94, y: 3.26}
+    oldSize: {x: 4.26, y: 3.37}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6867,7 +6924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &1240230173
@@ -7045,7 +7102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1001 &1248431671
@@ -7451,7 +7508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1001 &1499861698
@@ -7743,7 +7800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &1537385920
@@ -8429,7 +8486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1001 &1667061522
@@ -8664,7 +8721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1001 &1776049756
@@ -9177,7 +9234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &1888949784
@@ -9355,7 +9412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &1992333353
@@ -9564,7 +9621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &2036745752
@@ -9742,7 +9799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1 &2039522678
@@ -9920,7 +9977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1001 &2100799893
@@ -10155,7 +10212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde7269c73c0d4a0aa7d33419579c17d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsWorth: 1
+  pointsWorth: -1
   playSound: 0
   audioSrc: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
@@ -10195,3 +10252,4 @@ SceneRoots:
   - {fileID: 2100799893}
   - {fileID: 1554203171}
   - {fileID: 845878932}
+  - {fileID: 1169741319}
