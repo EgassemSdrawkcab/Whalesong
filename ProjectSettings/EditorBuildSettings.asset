@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/title screen.unity
     guid: e294f3ceb41fd234383d90a173b0cb8a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Levels Not In Final Game/Brynns Song Level.unity
     guid: 75f3e21e87a697d4089b505e51e8c44f
   - enabled: 0
@@ -29,10 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jev-level-pablo.unity
     guid: 6220a5c3d4ab746a0a1dedff14a050b0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Levels Not In Final Game/Brianna song level.unity
     guid: 951d49a6909de3c4eab09694af06b5d8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Levels Not In Final Game/end screen.unity
     guid: d26f5c177caa3a7469a0554c7ee92861
   - enabled: 1
