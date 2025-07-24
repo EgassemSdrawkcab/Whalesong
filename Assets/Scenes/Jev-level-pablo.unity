@@ -4300,8 +4300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9117653835b354259a0c03ce702840f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textToDisplay: Hey!
-  backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
+  textToDisplay: "No\u2026"
+  backgroundColor: {r: 0.57254905, g: 0.49019608, b: 0.44313726, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 0}
   disappearMode: 1
@@ -4321,7 +4321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textToDisplay: "THEY DIED! YOUR CHILD IS COMPLETELY DEAD\u2013"
-  backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
+  backgroundColor: {r: 0.57254905, g: 0.49019608, b: 0.44313726, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 951696149}
   disappearMode: 1
@@ -4342,7 +4342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textToDisplay: "No\u2026 NO! Why don't you JUST UNDERSTAND! ACCEPT IT! ALSO THAT'S
     WHY YOU CAN'T SEE THEM, WHY CAN'T YOU REALIZE THAT?!"
-  backgroundColor: {r: 0.44313726, g: 0.5176471, b: 0.57254905, a: 1}
+  backgroundColor: {r: 0.57254905, g: 0.49019608, b: 0.44313726, a: 1}
   textColor: {r: 1, g: 1, b: 1, a: 1}
   targetObject: {fileID: 951696149}
   disappearMode: 1
