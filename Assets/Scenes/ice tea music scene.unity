@@ -2733,7 +2733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TheArrowsFolder: {fileID: 1086098812}
   TheMusicSource: {fileID: 1537385921}
-  NumberOfStartBalloons: 12
+  NumberOfStartBalloons: 10
   NumberOfEndBalloons: 6
   levelName: Jev-level-pablo
 --- !u!4 &510785885
