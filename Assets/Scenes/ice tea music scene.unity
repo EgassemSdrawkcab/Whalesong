@@ -2712,6 +2712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 510785885}
   - component: {fileID: 510785884}
+  - component: {fileID: 510785886}
   m_Layer: 0
   m_Name: mode switch
   m_TagString: Untagged
@@ -2751,6 +2752,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &510785886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510785883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de4c452112f4ef47b99a81935db89b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &622351034
 GameObject:
   m_ObjectHideFlags: 0
