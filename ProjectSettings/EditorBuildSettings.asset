@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/title screen.unity
     guid: e294f3ceb41fd234383d90a173b0cb8a
+  - enabled: 1
+    path: Assets/Scenes/Whalesong 2.unity
+    guid: 54c4ee61d5e56904aa58e165c2f6fcd7
   - enabled: 0
     path: Assets/Scenes/Levels Not In Final Game/Brynns Song Level.unity
     guid: 75f3e21e87a697d4089b505e51e8c44f
@@ -38,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ending Scene.unity
     guid: aac9d0ac6e9688041adf4425b92cfba9
+  - enabled: 1
+    path: Assets/Scenes/Test Music Scene Zoe.unity
+    guid: 242f617691814844baff958cecac11fd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
